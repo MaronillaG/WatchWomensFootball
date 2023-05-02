@@ -3,6 +3,7 @@ html{
   width: 100vw;
   height: 100vh;
   background-color: black;
+  background: no-repeat center center;
   margin: auto;
   font-family: impact, sans-serif;
   background: linear-gradient(135deg, #4AECFC ,#F789DD );
@@ -21,7 +22,7 @@ body{
  }
 
 /* styling the logo of the page */
-.container-landing img{
+.container-logo img{
   height: 30vh;
   object-fit: cover;
   width: 100%;
@@ -29,12 +30,19 @@ body{
   z-index: -1;
   top: 25px;
 }
+
+#logo{
+  width: 100vw;
+  left: 0;
+}
 .landing-text{
   color: white;
   position: absolute;
   margin-left: 10%;
-  margin-top: 15%;
+  margin-top: 5%;
 }
+
+/*styling the div sections*/
 
 .external-link{
   color: black;
@@ -57,6 +65,9 @@ a:visited{
   display:flex;
   flex-wrap:  wrap;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .container-documentary img{
