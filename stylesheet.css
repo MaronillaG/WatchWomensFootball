@@ -9,7 +9,6 @@ html{
 }
 
 nav{
-  position: fixed;
   top: 0;
   right: 100%;
  }
@@ -28,12 +27,13 @@ body{
   width: 100%;
   position: relative;
   z-index: -1;
+  top: 25px;
 }
 .landing-text{
   color: white;
   position: absolute;
   margin-left: 10%;
-  margin-top: 3%;
+  margin-top: 15%;
 }
 
 .external-link{
