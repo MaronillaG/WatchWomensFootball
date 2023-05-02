@@ -119,3 +119,15 @@ footer{
   padding: 10px
 }
 
+.headings{
+  height: 30px;
+  background: #8a83e9;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  font-family: impact;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+
+}
