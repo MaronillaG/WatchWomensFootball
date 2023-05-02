@@ -4,32 +4,77 @@ html{
   height: 100vh;
   background-color: black;
   margin: auto;
-  font-family: Arial, sans-serif;
+  font-family: impact, sans-serif;
+  background: linear-gradient(135deg, #4AECFC ,#F789DD );
 }
 
-
-header{
-  width: 100%;
-  height: 25px;
-  background-color: #FDFA9F;
-  display: flex;
-  justify-content: center;
-  align-text: flex-end;
+nav{
   position: fixed;
-}
-
+  top: 0;
+  right: 100%;
+ }
+ 
 body{
   justify-content: center;
-  background: linear-gradient(135deg, #4AECFC ,#F789DD );
   height: 100vh;
-  width: 100%;
+  width: 75%;
   margin: auto;
- 
+ }
+
+/* styling the logo of the page */
+.container-landing img{
+  height: 30vh;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  z-index: -1;
 }
-img{
-  display: block;
+.landing-text{
+  color: white;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 3%;
 }
-#image {
-  max-width: 100%;
-  height: auto;
+
+.external-link{
+  color: black;
+  background-color: #FDFA9F;
+}
+
+.container-links{
+  position: relative;
+  top: 50%;
+
+}
+a, h3{
+  color: white
+}
+a:visited{
+  color: grey
+}
+
+.container-documentary{
+  display:flex;
+  flex-wrap:  wrap;
+  width: 100%;
+}
+
+.container-documentary img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+p{
+  color: white;
+  font-family: helvetica;
+}
+
+li {
+  list-style-type: none;
+  color: blueviolet;
+}
+footer{
+  height: 15vh;
+  background-color: grey;
 }
