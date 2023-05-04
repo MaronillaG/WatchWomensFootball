@@ -1,0 +1,62 @@
+body {
+ background: url(https://raw.githubusercontent.com/maronillaG/WatchWomensFootball/alt-with-DOM/images/soccer-into-goal-success-concept.jpg) no-repeat center  center/cover black; 
+  height: 100vh;
+  font-family: sans-serif, arial;
+  }
+
+  button {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: pink;
+  overflow: hidden;
+  background-color: white;
+  background-image: cover;
+  box-shadow: 0 0 5px black;
+}
+
+button .competition-img{
+  height: 100%;
+  width: auto;
+  
+}
+
+.competition-btn:hover {
+  border: solid;
+}
+
+
+/*info section */
+
+.competition-info{
+  height:200px;
+  width: 300px;
+  background: grey;
+  color: white;
+  box-shadow: 0 0 5px black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  border-radius: 2px;
+}
+
+
+/*the x close */
+
+#close-wc{
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: blue;
+}
+
+#wc-container{
+  display: none;
+  position: fixed;
+  top: 10;
+  left: 30; 
+  z-index: 1;
+  transform: translate (-50%, -50%);
+  animation-name: animatewc;
+  animation-duration: .4s;
+ }
