@@ -4,7 +4,7 @@ let day = date.getDate();
 let month = date.getMonth() + 1;
 let year = date.getFullYear();
 
-let today = `${day}-${month}-${year}`;
+let today = `Today's Date: ${day}-${month}-${year}`;
 
 let showDate = document.querySelector('#date');
 
