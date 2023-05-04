@@ -1,4 +1,4 @@
-//New Date
+/*New Date
 
 const date = new Date();
 
@@ -12,7 +12,7 @@ let showDate = document.querySelector('#date');
 
 showDate.innerText = today;
 
-console.log(showDate)
+console.log(showDate) */
 
 // Variables
 
