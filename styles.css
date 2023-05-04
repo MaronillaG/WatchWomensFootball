@@ -60,3 +60,9 @@ button .competition-img{
   animation-name: animatewc;
   animation-duration: .4s;
  }
+
+ header, footer {
+  width: 100%;
+  height: 50px;
+  background: white;
+  }

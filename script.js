@@ -33,7 +33,8 @@ wcClose.addEventListener('click', function() {
 });
 
 window.addEventListener('click', function(e) {
-    if(e.target == wcInfo) {
+
+    if (e.target === wcInfo) {
         wcInfo.style.display = 'none';
     }
 });
