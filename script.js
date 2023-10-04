@@ -34,21 +34,20 @@ function getInfo() { // created a function to pull data
 
                 cardEl.classList.add('card');
                 cardEl.innerHTML = `
-                    <div class='fixture-wrapper'>
-                        <div class='date-container'>
-                            <p class="card-day date" >${dayOfWeek}</p>
-                            <p class="card-date date">${matchDate.getDate()}</p>
-                        </div>
-                        <p class="card-ko time">00:00</p>
-                        <div class="game">
-                            <span class="home">${fixtures.home_team.home_team_name}</span>
-                            <span class='vs'> vs </span>
-                            <span class="away">${fixtures.away_team.away_team_name}</span>
-                        </div>
+                    
+                    <div class='date-container'>
+                        <p class="card-day date" >${dayOfWeek}</p>
+                        <p class="card-date date">${matchDate.getDate()}</p>
+                    </div>
+                    <p class="card-ko time">00:00</p>
+                    <div class="game">
+                        <span class="home">${fixtures.home_team.home_team_name}</span>
+                        <span class='vs'> vs </span>
+                        <span class="away">${fixtures.away_team.away_team_name}</span>
                     </div>
                     <div class='channels'>
                         <p class='tag'>BBC 2</p>
-                        <pclass='tag'>W-Sport</p>
+                        <p class='tag'>W-Sport</p>
                     </div>
                     `;
                 cardContainer.appendChild(cardEl);
