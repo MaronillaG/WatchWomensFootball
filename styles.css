@@ -8,7 +8,7 @@ html{
 
 body {
   display: grid;
-  grid-template-rows: 10em 20vh auto 10em;
+  grid-template-rows: 7em 20em auto 10em;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-areas: "header header header"
     "hero hero hero"
@@ -18,6 +18,12 @@ body {
 header {
   grid-area: header;
   background-color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-height: 4em;
 }
 
 .hero {
@@ -55,6 +61,7 @@ section{
   min-width: 300px;
   display: grid;
   gap: 1rem;
+  font-size: 0.9rem;
 }
 
 .card {
@@ -119,7 +126,7 @@ section{
 
 .tag {
   font-family: jura;
-  font-size: 10px;
+  font-size: 0.6rem;
   color: white;
   background-color: grey;
   transform: skewX(-10deg);
@@ -128,7 +135,11 @@ section{
 }
 @media screen and (min-width: 600px){
   .card-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+    grid-template-columns: repeat(auto-fit, minmax(15em, 25em));
+    font-size: 0.5rem;
+  }
+  .tag {
+    font-size: 0.4rem;
   }
 }
 
