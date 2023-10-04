@@ -60,7 +60,7 @@
     {
         "match_id" : 2,
         "match_date" : "2023-10-15",
-        "kick_off" : "17:30:00.000",
+        "kick_off" : "15:00:00.000",
         "competition" : {
             "competition_id" : 1,
             "country_name" : "England",

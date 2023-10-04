@@ -1,3 +1,28 @@
+section{
+  min-width:200px;
+  background-color: grey;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* card styling */
+.card-container {
+  min-width: 300px;
+  border: solid 1px black;
+  display: flex;
+  align-content: flex-start;
+  gap: 10px 20px;
+}
+.card {
+  background-color:pink;
+  border: solid 1px red;
+  min-width: 250px;
+
+}
+/* section header */
+.section-header {
+  background-color: grey;
+}
 /* for the top bar */
 header{
   height: 10vh;
@@ -7,7 +32,7 @@ header{
   background-color: #dac4fb;
   position: absolute;
   margin-left: -12vw;
-  padding: 10px;
+  padding: 0px;
   top: 0;
 }
 #site-logo{
@@ -29,8 +54,8 @@ header{
 body{
   height: 100vh;
   width: 75%;
-  background-image: url(https://raw.githubusercontent.com/maronillaG/WatchWomensFootball/main/images/soccer-into-goal-success-concept.jpg);
-  background-size: 100%; auto;
+  /* background-image: url(https://raw.githubusercontent.com/maronillaG/WatchWomensFootball/main/images/soccer-into-goal-success-concept.jpg); */
+  background-size: 100%, auto;
   background-repeat: no-repeat;
  /* background-color: #f3efe5; */
   font-family: 'Open Sans', sans-serif;
@@ -94,7 +119,7 @@ body{
 }
 
 p{
-  color: white;
+  /* color: white; */
   font-family: helvetica;
 }
 
